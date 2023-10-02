@@ -1,0 +1,14 @@
+[MASTER]
+
+disable=
+    C0115, # missing-class-docstring
+    C0116, # missing-function-docstring
+    C0209, # consider-using-f-string
+    W0702, # bare-exception
+    W0718, # broad-exception-caught
+    W0719, # broad-exception-raise
+
+[FORMAT]
+
+# Maximum number of characters on a single line.
+max-line-length=100

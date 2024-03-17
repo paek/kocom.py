@@ -23,7 +23,7 @@ import configparser
 
 
 # define -------------------------------
-SW_VERSION = '2022.04.10'
+SW_VERSION = '2024.03.17'
 CONFIG_FILE = 'kocom.conf'
 BUF_SIZE = 100
 
@@ -50,7 +50,7 @@ room_h_dic = {'livingroom':'00', 'myhome':'00', 'bedroom':'01', 'room1':'02', 'r
 # mqtt functions ----------------------------
 
 def init_mqttc():
-    mqttc = mqtt.Client()
+    mqttc = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1)
     mqttc.on_message = mqtt_on_message
     mqttc.on_subscribe = mqtt_on_subscribe
     mqttc.on_connect = mqtt_on_connect

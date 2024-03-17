@@ -1,4 +1,4 @@
-# Hass.io Add-on: Kocom Wallpad with RS485 
+# Hass.io Add-on: Kocom Wallpad with RS485 for 검암역로열파크씨티푸르지오
 
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
 
@@ -21,6 +21,8 @@ share/kocom/ 폴더에 있는 파일을 알맞게 수정하신 다음에
 애드온을 Start 하시면 이후부터는 수정된 파일을 적용합니다.
 
 ## Change log
+
+(2024-03-18 수정) 에어컨 추가 반영 
 
 (2024-03-17 수정) https://cafe.naver.com/koreassistant/16312 이슈 내용에 따른 typing_extensions plugin 추가 및 Callbackup API Version 체크 수정
 

@@ -22,8 +22,6 @@ share/kocom/ 폴더에 있는 파일을 알맞게 수정하신 다음에
 
 ## Change log
 
--(2024-03-18 수정) 에어컨 추가 반영-
-
 (2024-03-17 수정) https://cafe.naver.com/koreassistant/16312 이슈 내용에 따른 typing_extensions plugin 추가 및 Callbackup API Version 체크 수정
 
 (2022-04-10 수정) MQTT Discovery 지원
